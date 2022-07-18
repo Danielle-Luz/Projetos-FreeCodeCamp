@@ -1,0 +1,1 @@
+import foto from "../img/foto.png";
