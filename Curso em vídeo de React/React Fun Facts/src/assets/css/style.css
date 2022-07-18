@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    font-family: Roboto;
+}
+
+body {
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+header {
+    padding: 30px 20px;
+}
+
+main {
+    padding: 40px 20px 80px;
+}
+
+h1, h2, h3 {
+    margin: 0;
+}
+
+img {
+    height: 25px;
+    margin-right: 5px;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    font-size: 20px;
+}
+
+h3 {
+    font-size: 13px;
+    letter-spacing: 1.5px;
+    color: rgb(216, 216, 216);
+}
+
+ul > li {
+    color: rgb(199, 199, 199);
+    max-width: 300px;
+}
+
+@media(max-width: 410px) {
+    .f-column {
+        flex-direction: column;
+    }
+
+    h3 {
+        margin-top: 5px;
+    }
+}
+
+.flex, body {
+    display: flex;
+}
+
+.container {
+    width: 500px;
+    
+}
+
+.sp-between {
+    justify-content: space-between;
+}
+
+.ai-center {
+    align-items: center;
+}
+
+.bg-escuro {
+    background-color: #1e1e25;
+}
+
+.c-blue {
+    color: #62cbe7;
+}
+
+::marker {
+    color: #62cbe7;
+    font-size: 30px;
+}
+
+.bg-lighter {
+    background-image: url("https://img.icons8.com/ios/250/2D323A/react-native--v1.png");
+    background-position: 150% center;
+    background-color: #23272d;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 495px) {
+    .bg-lighter {
+        background-image: none;
+    }
+}
