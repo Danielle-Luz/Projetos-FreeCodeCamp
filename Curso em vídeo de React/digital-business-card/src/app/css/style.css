@@ -1,0 +1,159 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+* {
+    color: white;
+    box-sizing: border-box;
+    font-family: Inter;
+}
+
+body {
+    height: fit-content;
+    background-color: #23252C;
+}
+
+body, .flex, .b-email, .b-linkedin {
+    display: flex !important;      
+}
+   
+body, .center, .b-email, .b-linkedin {
+    align-items: center;
+    justify-content: center;
+}
+
+.column {
+    flex-direction: column;
+}
+
+.container {
+    max-width: 317px;
+    box-shadow: 0 0 10px -1px black;
+}
+
+.bg-container-escuro {
+    background-color: rgb(26, 27, 33);
+}
+
+header > section, main, footer {
+    padding: 0 50px;
+}
+
+main {
+    padding: 30px 30px;
+}
+
+footer {
+    padding-block: 1px;
+    border-radius: 0 0 10px 10px;
+}
+
+footer ul {
+    justify-content: space-evenly !important;
+}
+
+.bg-footer-escuro {
+    background-color: #161619;
+}
+
+.container {
+    border-radius: 10px;
+}
+
+.header-website {
+    margin-bottom: 10px;
+    text-shadow: 0px 1px 5px black;
+}
+
+.header-foto {
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+}
+
+button {
+    background-color: transparent;
+    border: none;
+}
+
+button:hover, a:hover {
+    opacity: 60%;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+header ul > li {
+    margin: 0 5px;
+}
+
+header ul {
+    margin: 8px 0 0;
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    font-size: 25px;
+    margin: 20px 0 0;
+}
+
+h2 {
+    font-size: 12.8px;
+    color: #F3BF99;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+p {
+    color: #DCDCDC !important;
+}
+
+p, .header-website {
+    font-size: 10.24px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.b-email, .b-linkedin {
+    padding-block: 5px;
+    border-radius: 6px;
+    width: 115px !important;
+    display: block;
+    font-size: 14px;
+}
+
+.b-email, .b-linkedin, h2 {
+    text-align: center;
+}
+
+.b-email {
+    background-color: white;
+    color: #374151;
+    border: 1px solid #D1D5DB;
+}
+
+.b-linkedin {
+    background-color: #5093E2;
+    border: 1px solid #000000;
+}
+
+.b-email::before {
+    content: url("https://img.icons8.com/material/16/000000/new-post--v1.png");
+}
+
+.b-linkedin::before {
+    content: url("https://img.icons8.com/ios-filled/16/FFFFFF/linkedin.png");
+}
+
+.b-email::before, .b-linkedin::before {
+    margin-right: 5px;
+    margin-top: 5px !important;
+}
